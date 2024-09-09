@@ -102,8 +102,7 @@ class RecintosZoo {
         if (
           recinto.animais.length > 0 &&
           animal === "HIPOPOTAMO" &&
-          recinto.bioma.includes("savana") &&
-          recinto.bioma.includes("rio")
+          recinto === "savana e rio"
         ) {
           return;
         }
